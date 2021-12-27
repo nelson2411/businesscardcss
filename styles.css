@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  height: 220px;
+  background: #b8c3d3;
+  background: -webkit-linear-gradient(top left, #b8c3d3, #618a6c);
+  background: -moz-linear-gradient(top left, #b8c3d3, #618a6c);
+  background: linear-gradient(to bottom right, #b8c3d3, #618a6c);
+}
+
+.b-card-text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.img-container {
+  margin-top: auto;
+  height: 100%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
